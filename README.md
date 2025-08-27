@@ -38,7 +38,7 @@ By combining transaction, demographic, and campaign data, we identify **actionab
 ### 1. Discount vs. BOGO Offers
 Discount offers significantly **outperformed BOGO offers** in completion rates.  
 
-![Completion Rates](./images/Completions over Time.png)
+![Completion Rates](images/Offer_Completion_Rate_by_Type.png)
 
 ---
 
