@@ -1,6 +1,6 @@
 # Customer Campaign Performance Analysis
 
-Analyzing the effectiveness of marketing campaigns using customer demographics, transaction history, and offer engagement data.
+📊 **University Data Analytics Project** analyzing the effectiveness of marketing campaigns using customer demographics, transaction history, and offer engagement data.
 
 ---
 
@@ -14,58 +14,73 @@ By combining transaction, demographic, and campaign data, we identify **actionab
 - `events.csv` – customer actions (transactions, offers received/viewed/completed)  
 - `offers.csv` – metadata (offer type, duration, reward, difficulty)  
 - `customers.csv` – demographics (age, gender, income, membership date)  
+- `data/final_events_with_customers.csv` – cleaned & merged dataset (272K+ rows, 14,825 valid customers)
+
 ---
 
 ## 🛠️ Tools & Methods
 - **Python (pandas, matplotlib, seaborn, numpy)** – data cleaning & analysis  
 - **Excel** – quick cleaning & validation  
-- **Tableau** – visualization  
+- **Tableau** (optional) – visualization  
 
 **Data Cleaning**  
 - Removed ~2,000 invalid customers (e.g., unrealistic ages, missing income/gender)  
 - Merged events, offers, and customers datasets into one analysis-ready file  
 
 **Analysis Focus**  
-- Offer completion rates (Discount vs. BOGO)  
-- Customer segmentation by age, income, gender  
+- Offer completion rates (Discount vs. BOGO, Gender differences)  
+- Customer segmentation by age and income  
 - Engagement trends over campaign timeline  
-- Spending behavior across income groups  
 
 ---
 
 ## 📈 Key Insights
 
-### 1. Discount vs. BOGO Offers
-Discount offers significantly **outperformed BOGO offers** in completion rates.  
+### 💡 1. Age Group vs Income Group
+The **30–44 age group with €50K–€100K income** completed the most offers, highlighting this segment as the most responsive.  
 
-![Completion Rates](images/Offer_Completion_Rate_by_Type.png)
-
----
-
-### 2. Segment Engagement (Age & Income)
-Customers aged **30–44 with €50K–€100K income** completed the most offers.  
-
-![Segment Analysis](images/Age_Group_vs_Income_Group.png)
+![Age vs Income](images/Age_Group_vs_Income_Group.png)
 
 ---
 
-### 3. Spending by Income Group
-High-income customers (>€100K) spent **5× more per transaction** than lower-income groups.  
+### 💡 2. Completions over Time
+Engagement peaked during **Days 15–24**, after which completion rates declined sharply.  
 
-![Income Spending](./images/income_spending.png)
+![Completions Over Time](images/Completions_over_Time.png)
 
 ---
 
-### 4. Campaign Timing
-Engagement peaked between **Days 15–24** and dropped sharply afterward.  
+### 💡 3. Offer Completion by Gender
+Both genders showed similar engagement levels, with only slight differences in completion trends.  
 
-![Engagement Timeline](./images/engagement_timeline.png)
+![Offer by Gender](images/Offer_Completion_by_Gender.png)
+
+---
+
+### 💡 4. Offer Completion Rate by Type
+**Discount offers outperformed BOGO offers**, achieving a much higher completion rate.  
+
+![Offer by Type](images/Offer_Completion_Rate_by_Type.png)
 
 ---
 
 ## 🎯 Recommendations
 - Prioritize **discount offers** as the main promotional type  
 - Target **30–44 age group with €50K–€100K income** for maximum ROI  
-- Develop **premium offers** tailored to high-income customers (>€100K)  
--
+- Schedule **mid-campaign reminders** around Days 15–20 to maintain engagement  
+- Continue improving **customer data quality** (gender/income completeness)  
 
+---
+
+## 📑 Deliverables
+- 📄 [Final Presentation PDF](./presentation/Analytical%20Process%20-%20Arsenii%20Popenko.pdf)  
+- 📊 Jupyter Notebook (coming soon) – `notebooks/campaign_analysis.ipynb`  
+- 📂 Clean dataset – `data/final_events_with_customers.csv`
+
+---
+
+## 🚀 Outcome
+This project demonstrates how **customer segmentation + campaign analytics** can drive **data-driven marketing strategies**.  
+It highlights **real-world challenges** like data quality and shows how Python can be combined with business insights to create actionable recommendations.
+
+---
