@@ -1,6 +1,6 @@
 # Customer Campaign Performance Analysis
 
-📊 **University Data Analytics Project** analyzing the effectiveness of marketing campaigns using customer demographics, transaction history, and offer engagement data.
+Analyzing the effectiveness of marketing campaigns using customer demographics, transaction history, and offer engagement data.
 
 ---
 
