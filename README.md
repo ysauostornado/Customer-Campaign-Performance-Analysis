@@ -74,7 +74,7 @@ Both genders showed similar engagement levels, with only slight differences in c
 
 ## 📑 Deliverables
 - 📄 [Final Presentation PDF](./presentation/Analytical%20Process%20-%20Arsenii%20Popenko.pdf)  
-- 📊 Jupyter Notebook (coming soon) – (notebooks/merging.py)
+- 📊 Jupyter Notebook – (notebooks/merging.py)
 - 📂 Clean dataset – `data/final_events_with_customers.csv`
 
 ---
