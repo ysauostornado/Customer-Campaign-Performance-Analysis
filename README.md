@@ -21,7 +21,7 @@ By combining transaction, demographic, and campaign data, we identify **actionab
 ## 🛠️ Tools & Methods
 - **Python (pandas, matplotlib, seaborn, numpy)** – data cleaning & analysis  
 - **Excel** – quick cleaning & validation  
-- **Tableau** (optional) – visualization  
+- **Tableau** – visualization  
 
 **Data Cleaning**  
 - Removed ~2,000 invalid customers (e.g., unrealistic ages, missing income/gender)  
@@ -74,7 +74,7 @@ Both genders showed similar engagement levels, with only slight differences in c
 
 ## 📑 Deliverables
 - 📄 [Final Presentation PDF](./presentation/Analytical%20Process%20-%20Arsenii%20Popenko.pdf)  
-- 📊 Jupyter Notebook (coming soon) – `notebooks/campaign_analysis.ipynb`  
+- 📊 Jupyter Notebook (coming soon) – (/notebooks)
 - 📂 Clean dataset – `data/final_events_with_customers.csv`
 
 ---
