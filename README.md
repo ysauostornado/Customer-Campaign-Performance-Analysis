@@ -45,7 +45,7 @@ Discount offers significantly **outperformed BOGO offers** in completion rates.
 ### 2. Segment Engagement (Age & Income)
 Customers aged **30–44 with €50K–€100K income** completed the most offers.  
 
-![Segment Analysis](./images/segment analysis.png)
+![Segment Analysis](images/Age Group vs Income Group.png)
 
 ---
 
